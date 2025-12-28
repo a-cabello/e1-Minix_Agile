@@ -7,10 +7,10 @@ Este repositorio contiene actualmente herramientas para automatizar la recompila
 Este script automatiza el proceso de copia, compilación e instalación de un nuevo fichero `main.c` dentro del código fuente del kernel. Incluye manejo de señales para una salida limpia y feedback visual por colores.
 
 ### Características
-* **Validación de Archivos:** Comprueba la existencia del fichero fuente antes de proceder.
-* **Compilación Automatizada:** Ejecuta `make` y `make install` de forma silenciosa, reportando solo el resultado final.
-* **Interfaz de Colores:** Feedback visual claro para estados de éxito, error e información.
-* **Gestión de Interrupciones:** Control mediante `Ctrl+C` para evitar estados inconsistentes.
+* Comprueba la existencia del fichero fuente antes de proceder.
+* Ejecuta `make` y `make install` de forma silenciosa, reportando solo el resultado final.
+* Feedback visual claro para estados de éxito, error e información.
+* Control mediante `Ctrl+C` para evitar estados inconsistentes.
 
 ### ¿Cómo probarlo?
 únicamente hay que especificar dentro del script la ruta absoluta (/root/p6-conf-pag/main.c) donde está nuestro fichero con el que queremos recompilar el kernel.
