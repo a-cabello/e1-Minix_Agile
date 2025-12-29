@@ -18,7 +18,7 @@ Sigue estos pasos para clonar el repositorio y ejecutar el script en tu máquina
 
 1. **Clonar el repositorio dentro del directorio /home/alumno/Disco**
    ```bash
-   git clone https://github.com/a-cabello/eMinix_Agile
+   git clone https://github.com/a-cabello/e1-Minix_Agile
    ```
 2. **Ejecutar start_minix y copyhost para copiarnos el directorio Disco del host a minix**
    ```bash
@@ -33,5 +33,5 @@ Sigue estos pasos para clonar el repositorio y ejecutar el script en tu máquina
    ```
   4. **Ejecutar script rec_kernel.sh como root (#)**
      ```bash
-     bash rec_kernel.sh
+     bash e1-Minix_Agile/rec_kernel.sh
      ```
